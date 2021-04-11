@@ -116,7 +116,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Your system locale is how your computer displays non-unicode text in programs.<br>
 <strong><em>Why do you need to change it?</em></strong><br>
 &nbsp;&nbsp;&nbsp;&nbsp;In order to display Japanese text, which is a requirement for simulators, your locale needs to be set to Japanese so that your computer can parse songs with Japanese names and load any song audio.<br>
-This process is fairly similar for Windows 7 and Windows XP, but it should not be too far off.</p>
+This process is slightly different for Win7/WinXP.</p>
 <ol>
 <li>Go to your <b>Control Panel</b> in Windows, using the search bar or using the shortcut in the Windows menu.</li>
 <li>Then, go to the <b>Clock and Region</b> tab.</li><br>
@@ -141,6 +141,11 @@ This process is fairly similar for Windows 7 and Windows XP, but it should not b
 <p>Double click on the font file to install.<br>
 <img alt="Image of font install window" src="img/installfont.png" /></p>
 </li>
+<li>
+<p>In certain TJAPlayer3 simulators, specifying the font is required. In config.ini, change:<br>
+<code>FontName=ＤＦＰ勘亭流</code> for normal font<br>
+<code>FontName=FOT-大江戸勘亭流 Std E</code> for Nijiiro font<br></p>
+</li>
 </ol>
 <p>No restart is required after font installation.<br></p>
 <p><em>For the standard taiko font, extra compatibility has been added to select songs. In order to enable this compatibility, the song names in the TJA file must be changed.</em><br>
@@ -164,7 +169,10 @@ This process is fairly similar for Windows 7 and Windows XP, but it should not b
 </ul>
 <p>Songs can also be found using GetUploader by going to google and using the format "song name" + site:getuploader.com.</p>
 <h4 id="other-sources">Other Sources</h4>
-<p>Songs can be found in other places on the web, such as <a href="https://taikosanjiro-humenroom.net">taikosanjiro-humenroom</a>, which features Oni (or Omote (表)) and Ura (裏) custom and official charts. Anything beyond that can be found with google and the term 太鼓さん次郎 + "Song name".</p></div>
+<p>Songs can be found in other places on the web, such as <a href="https://taikosanjiro-humenroom.net">taikosanjiro-humenroom</a>, which features Oni (or Omote (表)) and Ura (裏) custom and official charts. Anything beyond that can be found with google and the term 太鼓さん次郎 + "Song name".</p>
+<hr />
+<h3 id="continue-to-tjaplayer3-forks-and-simulators"><center><strong>Continue to <a href="https://tjadataba.se/tjap">TJAPlayer3 Forks and Simulators</a></strong></center></h3>
+<hr /></div>
             </div>
         </div>
 
@@ -248,5 +256,5 @@ This process is fairly similar for Windows 7 and Windows XP, but it should not b
 
 <!--
 MkDocs version : 1.1.2
-Build Date UTC : 2021-03-28 06:34:58.238051+00:00
+Build Date UTC : 2021-04-11 06:53:11.405020+00:00
 -->
