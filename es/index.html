@@ -1,0 +1,512 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="sim sim sim">
+      
+      
+      
+        <meta name="author" content="Yonokid">
+      
+      
+      <link rel="icon" href="../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
+    
+    
+      
+        <title>Inicio - 太鼓の達人 Simulator Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e35208c4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    
+      
+        
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","G-2P6BSX7J64","tjadataba.se"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#bienvenido-a-la-guia-de-simuladores-de-taiko-no-tatsujin" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="太鼓の達人 Simulator Guide" class="md-header__button md-logo" aria-label="太鼓の達人 Simulator Guide" data-md-component="logo">
+      
+  <img src="../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            太鼓の達人 Simulator Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Inicio
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="" type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="" type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="../" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+                
+                <li class="md-select__item">
+                  <a href="./" hreflang="es" class="md-select__link">
+                    Español
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Limpiar" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Inicio
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="tjap/" class="md-tabs__link">
+      TJAPlayer3 "Forks" y simuladores
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="shimyu/" class="md-tabs__link">
+      Otros simuladores
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="error/" class="md-tabs__link">
+      Mensajes de error
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="太鼓の達人 Simulator Guide" class="md-nav__button md-logo" aria-label="太鼓の達人 Simulator Guide" data-md-component="logo">
+      
+  <img src="../img/logo.png" alt="logo">
+
+    </a>
+    太鼓の達人 Simulator Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Inicio
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tjap/" class="md-nav__link">
+        TJAPlayer3 "Forks" y simuladores
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="shimyu/" class="md-nav__link">
+        Otros simuladores
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="error/" class="md-nav__link">
+        Mensajes de error
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="bienvenido-a-la-guia-de-simuladores-de-taiko-no-tatsujin"><center><strong>Bienvenido a la guía de simuladores de Taiko no Tatsujin (太鼓の達人)</strong></center></h1>
+<h1 id="prerequisitos">Prerequisitos</h1>
+<p><em>Todos los simuladores poseen ciertos requerimientos e instalaciones antes de que puedan funcionar correctamente.</em></p>
+<h2 id="como-cambiar-tu-idioma-local">Cómo cambiar tu idioma local</h2>
+<h5 id="esto-no-cambiara-el-idioma-con-el-que-se-muestra-tu-computador"><span style="color:red"><strong>¡Esto NO cambiará el idioma con el que se muestra tu computador!</strong></span></h5>
+<p><strong><em>¿Qué es el idioma local?</em></strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;El idioma local es cómo tu computador muestra texto no-unicode en los programas.<br>
+<strong><em>¿Por qué debes cambiarlo?</em></strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;Para mostrar el texto en japonés, el cual es un requisito para los simuladores y tu idioma local debe estar en japonés. De esta forma tu computador puede analizar correctamente las canciones con nombres japoneses y cargar el audio de la música.<br>
+Este proceso es un poco diferente para Win7/WinXP.</p>
+<ol>
+<li>Ve al <b>Panel de control</b> en Windows, usando la barra de búsqueda o usando el atajo en el menú de Windows.</li>
+<li>Luego, dirígete a la opción de <b>Reloj y región</b>.</li><br>
+<img src="img/controlpanel.png" width="75%" height="75%"></img>
+<li>Selecciona <b>Región</b>, y haz click en la pestaña de <b>"Administrativo"</b>.</li><br>
+<img src="img/localechange.png" width="50%" height="50%"></img><br><br>
+<li>Presiona el botón de<b>"Cambiar configuración regional del sistema..."</b> y selecciona <b>"Japonés (Japón)"</b>. <b>NO marques la casilla que se encuentra debajo!</b></li>
+<li>Reinicia tu computador, y ya está listo!</li>
+</ol>
+
+<h2 id="instala-las-fuentes-de-taiko-no-tatsujin">Instala las fuentes de Taiko no Tatsujin</h2>
+<p><em>Tu computador no posee por defecto las fuentes utilizadas en los simuladores más modernos, por lo que deben ser instaladas manualmente.</em></p>
+<ol>
+<li>
+<p>Descarga las fuentes necesarias.</p>
+<ul>
+<li><strong><a href="https://drive.google.com/file/d/1Au8BzkPLCIunt-GypA4qvkUtpwGnKisp/view">DFPKanteiryu-XB (DFB勘亭流-XB)</a> | <span style="color:green">Requerido</span></strong></li>
+<li><strong><a href="https://drive.google.com/file/d/1OKbd2f4lGFwLkkp3wiENsybwc6VvLc6r/view">FOT-Ōedo Kanteiryu Std E (FOT-大江戸勘亭流 Std E)</a> | <span style="color:blue">Requerido para los simuladores con el estilo Nijiiro (ニジイロ)</span></strong></li>
+</ul>
+</li>
+<li>
+<p>Haz doble click en el archivo de fuente para instalarlo.<br>
+<img alt="Image of font install window" src="img/installfont.png" /></p>
+</li>
+<li>
+<p>En algunos simuladores de TJAPlayer3, es necesario especificar la fuente. En el archivo config.ini, cambia lo siguiente:<br>
+<code>FontName=ＤＦＰ勘亭流</code> para la fuente estándar<br>
+<code>FontName=FOT-大江戸勘亭流 Std E</code> para la fuente de Nijiiro<br></p>
+</li>
+</ol>
+<p>No es necesario reinicar tu computador después de la instalación.<br></p>
+<p><em>Para la fuente estándar de taiko, se ha añadido compatibilidad adicional al elegir ciertas canciones. Para activar esta compatibilidad, el nombre de las canciones en el archivo TJA debe ser cambiado.</em><br>
+<code>‽カオスタイム‽</code><br>
+<code>亜空間遊泳ac⒓</code><br>
+<code>アルムジカac⒕.0V</code><br>
+<code>毒ⅬCANⅮ♡</code><br>
+<code>poxei♢DOON</code><br>
+<code>(Cualquier canción con !!) -&gt; ‼</code><br></p>
+<h2 id="como-obtener-canciones">Cómo obtener canciones</h2>
+<p><em>Encontrar canciones puede ser complicado, en especial para aquellos que no escriben o leen en japonés. Esta guía otorga fuentes confiables para encontrar mapas en alta calidad (TJAs) y audio. Asegúrate que tu simulador está funcionando antes que descargues las canciones.</em></p>
+<h3 id="tjadb">TJADB</h3>
+<p>TJADB es la forma más eficiente a la fecha de encontrar canciones en alta calidad, principalmente para canciones oficiales. Canciones personalizadas también están incluídas en un canal aparte. Hasta el momento, todas las canciones que están disponibles para 太鼓の達人グリーン 2.0 (Versión Verde ("Green Ver.") Japón + Asia) se encuentran disponibles. Puedes encontrar el Discord de TJADB <strong><a href="https://discord.gg/XHcVYKW">aquí</a></strong>. ¡Una página web también se encontrará disponible pronto!</p>
+<h4 id="getuploader">GetUploader</h4>
+<p>GetUploader, también conocido como "uploader.jp" o "ux.getuploader.com", es la página donde muchos creadores japoneses de TJA y usuarios suben sus trabajos. Descargar desde aquí puede dar resultados de diferentes calidades, y una gran mayoría de ellos son canciones personalizadas. Zen Gaido Fumen Haifu (全難易度譜面配布) en generalmente una buena fuente en la pagina, con canciones oficiales a la fecha y una gran variedad de canciones personalizadas. Canciones marcadas como "本家譜面" son oficiales. Éstas se encuentran separadas por 4 links. Las canciones no pueden ser descargadas de forma masiva.<br></p>
+<ul>
+<li><a href="https://ux.getuploader.com/e2339999zp/">Pack 1</a></li>
+<li><a href="https://ux.getuploader.com/e2337650/">Pack 2</a></li>
+<li><a href="https://ux.getuploader.com/toukyuutoyoko9000/">Pack 3</a></li>
+<li><a href="https://ux.getuploader.com/e2351000">Pack 4</a></li>
+</ul>
+<p>Las canciones también pueden ser encontradas por GetUploader con Google y usando el siguiente formato: "nombre de la canción" + site:getuploader.com.</p>
+<h4 id="otras-fuentes">Otras fuentes</h4>
+<p>Las canciones también pueden ser encontradas en otros sitios, como por ejemplo en <a href="https://taikosanjiro-humenroom.net">taikosanjiro-humenroom</a>, el cual posee canciones tanto oficiales como personalizadas en dificultad Oni (u Omote (表)) y en Ura (裏). Cualquier cosa más allá de esto puede ser encontrado con Google y el término 太鼓さん次郎 + "nombre de la canción".</p>
+<hr />
+<h3 id="continuar-a-tjaplayer3-forks-y-simuladores"><center><strong>Continuar a <a href="https://tjadataba.se/tjap">TJAPlayer3 "Forks" y simuladores</a></strong></center></h3>
+<hr />
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Pie">
+      
+      
+        <a href="tjap/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              TJAPlayer3 "Forks" y simuladores
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "translations": {"clipboard.copy": "Copiar al portapapeles", "clipboard.copied": "Copiado al portapapeles", "search.config.lang": "es", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "B\u00fasqueda", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.term.missing": "Falta"}, "search": "../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.4ea5477f.min.js"></script>
+      
+    
+  </body>
+</html>
