@@ -9,12 +9,11 @@
         <meta name="description" content="sim sim sim">
       
       
-      
         <meta name="author" content="Yonokid">
       
       
       <link rel="icon" href="../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.7">
     
     
       
@@ -22,10 +21,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.e35208c4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.cd566b2a.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ef6f36e2.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
         
       
     
@@ -35,19 +34,16 @@
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
-    
     
     
       <link rel="stylesheet" href="../../stylesheets/extra.css">
     
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-        
-<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","G-2P6BSX7J64","tjadataba.se"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
-<script async src="https://www.google-analytics.com/analytics.js"></script>
-      
+
     
     
   </head>
@@ -63,9 +59,8 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
   
     
-    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
-      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -82,7 +77,12 @@
       
     </div>
     
-      <header class="md-header" data-md-component="header">
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="太鼓の達人 Simulator Guide" class="md-header__button md-logo" aria-label="太鼓の達人 Simulator Guide" data-md-component="logo">
       
@@ -113,16 +113,16 @@
         
           
           
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="" type="radio" name="__palette" id="__palette_1">
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
           
             <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
             </label>
           
         
           
           
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="" type="radio" name="__palette" id="__palette_2">
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
           
             <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
@@ -135,20 +135,20 @@
       <div class="md-header__option">
         <div class="md-select">
           
-          <button class="md-header__button md-icon">
+          <button class="md-header__button md-icon" aria-label="Select language">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24z"/></svg>
           </button>
           <div class="md-select__inner">
             <ul class="md-select__list">
               
                 <li class="md-select__item">
-                  <a href="../../" hreflang="en" class="md-select__link">
+                  <a href="../../tjap/" hreflang="en" class="md-select__link">
                     English
                   </a>
                 </li>
                 
                 <li class="md-select__item">
-                  <a href="../../es/" hreflang="es" class="md-select__link">
+                  <a href="../../es/tjap/" hreflang="es" class="md-select__link">
                     Español
                   </a>
                 </li>
@@ -162,19 +162,22 @@
       <label class="md-header__button md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
       </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-      </button>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -191,13 +194,9 @@
     
     
   </nav>
-</header>
+  
     
-    <div class="md-container" data-md-component="container">
       
-      
-        
-          
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
@@ -255,6 +254,13 @@
     </ul>
   </div>
 </nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
         
       
       <main class="md-main" data-md-component="main">
@@ -324,6 +330,7 @@
       </a>
       
         
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -338,8 +345,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#taikocatscaffe-recommended" class="md-nav__link">
-    TaikoCatsCaffe (Recommended)
+  <a href="#opentaiko-recommended" class="md-nav__link">
+    OpenTaiko (Recommended)
   </a>
   
 </li>
@@ -347,13 +354,6 @@
         <li class="md-nav__item">
   <a href="#tjaplayer3" class="md-nav__link">
     TJAPlayer3
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tjaplayer3-develop" class="md-nav__link">
-    TJAPlayer3-Develop
   </a>
   
 </li>
@@ -373,8 +373,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#taikorestart" class="md-nav__link">
-    TaikoReStart
+  <a href="#taikocatscaffe" class="md-nav__link">
+    TaikoCatsCaffe
   </a>
   
 </li>
@@ -429,6 +429,7 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -443,8 +444,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#taikocatscaffe-recommended" class="md-nav__link">
-    TaikoCatsCaffe (Recommended)
+  <a href="#opentaiko-recommended" class="md-nav__link">
+    OpenTaiko (Recommended)
   </a>
   
 </li>
@@ -452,13 +453,6 @@
         <li class="md-nav__item">
   <a href="#tjaplayer3" class="md-nav__link">
     TJAPlayer3
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tjaplayer3-develop" class="md-nav__link">
-    TJAPlayer3-Develop
   </a>
   
 </li>
@@ -478,8 +472,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#taikorestart" class="md-nav__link">
-    TaikoReStart
+  <a href="#taikocatscaffe" class="md-nav__link">
+    TaikoCatsCaffe
   </a>
   
 </li>
@@ -496,8 +490,8 @@
             <article class="md-content__inner md-typeset">
               
                 
-                
-                <h1 id="tjaplayer3-forks-and-simulators">TJAPlayer3 Forks and Simulators</h1>
+
+<h1 id="tjaplayer3-forks-and-simulators">TJAPlayer3 Forks and Simulators</h1>
 <p><em>TJAPlayer is a software originally based off of DTXMania, a simulator for Drummania. The term "fork" comes from general software development, which is the act of copying the source code of a project and developing it without impacting the original code.</em><br><br>
 <b>Global TJAPlayer3 Keybinds</b><br>
 <code>SHIFT + F1 = Settings Menu</code><br>
@@ -506,48 +500,45 @@
 <code>F3 = Auto mode (1P)</code><br>
 <code>F4 = Auto mode (2P) (Song Select)</code><br>
 <code>F5 = AVI Playback (in-game)</code><br>
+<code>F6 = Scroll mode</code><br>
+<code>F7 = Gauge mode</code><br>
 <code>F12 = Screen Capture</code><br>
 <code>DFJK = default taiko keybinds</code><br>
 <code>UP and DOWN arrow keys = increase or decrease scroll speed (in-game)</code><br>
 <code>LEFT and RIGHT arrow keys = increase or decrease global offset (in-game) (not recommended)</code><br>
 <code>ALT + LEFT and RIGHT arrow keys = increase or decrease global offset in 1ms increment</code><br>
-<code>/ = Control song / song preview volume</code><br></p>
-<h2 id="taikocatscaffe-recommended"><b>TaikoCatsCaffe</b> (Recommended)</h2>
-<p>TaikoCatsCaffe (TCC) is a simulator created by the !TaikoCatsCaffe! Team and is the closest version to the generation 3 arcade systems (2011 ver - Green).<br>
-Below is a modified version with bug fixes, more english text and other features.<br>
-<a href="https://drive.google.com/file/d/1DsWVq_AFJIhqd8AQ24jdVypblCXfOQO5/view?usp=sharing">Download</a><br>
-<code>New Update:</code><br>
-<code>Removed unused score history (fixes looping bug in log)</code><br>
-<code>Improved some textures</code><br>
-<code>Added New genre: NewSongs</code><br>
-<code>Don-chan is now normal size</code><br><br>
-<code>Keybinds:</code><br>
-<code>F4 = Enable Achievement Display (In-game)</code><br>
-<code>Space bar = Sort Songs</code></p>
+<code>SHIFT + UP and DOWN arrow keys = increase or decrease song offset (in-game)</code><br>
+<code>ALT + SHIFT + UP and DOWN arrow keys = increase or decrease song offset in 1ms increment</code><br>
+<code>/ = Control song / song preview volume</code><br>
+<code>F2 In Song Select = Quick Options</code><br></p>
+<h2 id="opentaiko-recommended"><b>OpenTaiko</b> (Recommended)</h2>
+<p>OpenTaiko is the most recent fork currently maintained by 申しコミ (0AuBsq). This simulator is the closest to the latest arcade version, Nijiiro (ニジイロ).<br>
+<a href="https://github.com/0auBSQ/OpenTaiko/releases/">Download</a><br>
+<a href="https://discord.gg/djTCsWj4th">https://discord.gg/djTCsWj4th</a></p>
 <h2 id="tjaplayer3">TJAPlayer3</h2>
-<p>TJAPlayer3 is the base for most modern simulators. TaikoCatsCaffe, TaikoCatsDooooN and many other simulators are modified versions of TJAPlayer3. The simulator was originally developed by AioiLight, and it is now maintained by twopointzero.<br>
-<a href="https://github.com/twopointzero/TJAPlayer3/releases/latest/">https://github.com/twopointzero/TJAPlayer3/releases/latest/</a></p>
-<h2 id="tjaplayer3-develop">TJAPlayer3-Develop</h2>
-<p>TJAPlayer3-Develop is a project that was created by KabanFriends and maintained by brian218. This simulator is the closest to the latest arcade version, Nijiiro (ニジイロ).<br>
-<a href="https://github.com/TJAPlayer3-Develop/TJAPlayer3-Develop/releases/latest/download/TJAPlayer3-Develop.zip">Download (Final)</a></p>
+<p>TJAPlayer3 is the base for most modern simulators. All simulators on this page are modified versions of TJAPlayer3. The simulator was originally developed by AioiLight, and was maintained by twopointzero and Meowgister.<br>
+<a href="https://drive.google.com/drive/folders/1qit5aYGK1TBh6qMOKBkKeqqXnO3Ckfig">Preconfigured version by Meowgister</a></p>
 <h2 id="tjaplayer3gl">TJAPlayer3GL</h2>
 <p>TJAPlayer3GL is a port of TJAPlayer3 for OpenGL. This version is useful for people who have low RAM or weak graphics cards.<br>
 <a href="https://discord.gg/t7dwc2Nm3a">https://discord.gg/t7dwc2Nm3a</a></p>
 <h2 id="tjaplayer3-f">TJAPlayer3-f</h2>
-<p>TJAPlayer3-f is a fork currently maintained by Mr Ojii. This version hopes to fix many of the bugs, spaghetti code, and other major issues littered throughout the original TJAPlayer3. This will soon be the first version of TJAPlayer3 to natively support Linux.<br>
+<p>TJAPlayer3-f is a fork currently maintained by Mr Ojii. This version hopes to fix many of the bugs, spaghetti code, and other major issues littered throughout the original TJAPlayer3. This will soon be the first version of TJAPlayer3 to natively support Linux. However, only autoplay is available.<br>
 <a href="https://github.com/Mr-Ojii/TJAPlayer3-f/releases">https://github.com/Mr-Ojii/TJAPlayer3-f/releases</a></p>
-<h2 id="taikorestart">TaikoReStart</h2>
-<p>TaikoReStart is a simulator with <b>malware included</b> and you should <b>never download or run.</b></p>
+<h2 id="taikocatscaffe">TaikoCatsCaffe</h2>
+<p>TaikoCatsCaffe (TCC) is a <b>deprecated</b> simulator created by the !TaikoCatsCaffe! Team and is the closest version to the generation 3 arcade systems (2011 ver - Green).<br>
+<i>This simulator is no longer available for download due to the creation of much better alternatives.</i></p>
 <h1 id="tools-and-extras">Tools and Extras</h1>
 <h2 id="nameplates">Nameplates</h2>
-<p>Custom Nameplates can be created thanks to CRCR's nameplate program, which can be downloaded <a href="/assets/Name Plate Maker.zip">Here.</a><br>
+<p><i>Note: This tool is only needed if using standard TJAPlayer3 or a deprecated simulator. <b>OpenTaiko natively supports nameplates without images.</b></i><Br><br>
+Custom nameplates can be created thanks to CRCR's nameplate program, which can be downloaded <a href="/assets/Name Plate Maker.zip">here.</a><br>
 This is an example name plate. Your title (usually gained from completing certain challenges) goes in the top box, and your username in the bottom.<br>
 The "Full" button switches between the full and standard nameplate. You must hit "Save" twice to recieve both nameplates.<br>
 The "P" button switches between the 1P and 2P design.<br>
 The "On / Off" button switches the dan design on and off. Dans are a way to measure your skill. Find more information in the <a href="https://discord.gg/XHcVYKW">TJADB discord.</a><br>
+Place the finished name plate in the base graphics folder and <code>5/game 6/taiko</code>.<br>
 <img src="/assets/Name Plate Maker.png"></img></p>
 <h2 id="dons">Dons</h2>
-<p><strong>These Dons are for TaikoCatsCaffe (TCC) ONLY.</strong> Download by clicking the image, then place and extract the zip file in System\Base.</p>
+<p>Download by clicking the image, then place and extract the zip file in \11_Characters. Don files have to be in numbered folders in order (0, 1, 2, 3, etc).</p>
 <table>
 <thead>
 <tr>
@@ -568,8 +559,8 @@ The "On / Off" button switches the dan design on and off. Dans are a way to meas
 <td><a href="/assets/don/Dododo.zip"><img src="/assets/don/Dododo.gif"></a></td>
 </tr>
 <tr>
-<td>Don-chan</td>
-<td>(Comes with TCC)</td>
+<td>Don-chan (Green Ver)</td>
+<td></td>
 <td><a href="/assets/don/Don-chan.zip"><img src="/assets/don/Don-Chan.gif"></a></td>
 </tr>
 <tr>
@@ -595,12 +586,11 @@ The "On / Off" button switches the dan design on and off. Dans are a way to meas
 </tbody>
 </table>
 <h2 id="puchichara">Puchichara</h2>
-<p>Puchichara are small characters that dance alongside your Don. TaikoCatsCaffe includes many of these puchichara ready to be used. To load them in TCC, simply rename the image Puchichara.png and leave in in the 0_Personal folder. For any other version of TJAPlayer3, the file must be called 0.png and stored in 5_Game\18_Puchichara.</p>
+<p>Puchichara are small characters that dance alongside your Don. To load them in a simulator, simply add an image to the <code>System/5_Game/18_PuchiChara/</code> folder.</p>
 <h3 id="how-to-create-puchichara">How to create Puchichara</h3>
+<p><i>This guide will not work for OpenTaiko</i><Br>
+1. Install <a href="https://www.getpaint.net/">paint.net</a>. This will be used to add the gogo time effect.</p>
 <ol>
-<li>
-<p>Install <a href="https://www.getpaint.net/">paint.net</a>. This will be used to add the gogo time effect.</p>
-</li>
 <li>
 <p>Find two images of the character you want to turn into a puchichara.</p>
 </li>
@@ -613,11 +603,6 @@ The "On / Off" button switches the dan design on and off. Dans are a way to meas
 <img src="/assets/Levels.PNG" width="50%" height="50%"></img></li>
 <li>Save the file.</li>
 </ol>
-                
-              
-              
-                
-
 
               
             </article>
@@ -626,12 +611,12 @@ The "On / Off" button switches the dan design on and off. Dans are a way to meas
         
       </main>
       
-        
-<footer class="md-footer">
+        <footer class="md-footer">
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../" class="md-footer__link md-footer__link--prev" rel="prev">
+        
+        <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -646,7 +631,8 @@ The "On / Off" button switches the dan design on and off. Dans are a way to meas
         </a>
       
       
-        <a href="../shimyu/" class="md-footer__link md-footer__link--next" rel="next">
+        
+        <a href="../shimyu/" class="md-footer__link md-footer__link--next" aria-label="Next: Other Simulators" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
@@ -664,14 +650,15 @@ The "On / Off" button switches the dan design on and off. Dans are a way to meas
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-        
-      </div>
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
       
     </div>
   </div>
@@ -681,10 +668,10 @@ The "On / Off" button switches the dan design on and off. Dans are a way to meas
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
     
     
-      <script src="../../assets/javascripts/bundle.4ea5477f.min.js"></script>
+      <script src="../../assets/javascripts/bundle.01de222e.min.js"></script>
       
     
   </body>
