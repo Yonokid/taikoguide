@@ -1,0 +1,1 @@
+¡No hay reportes de errores hasta el momento! Puedes reportar errores a <a href="https://docs.google.com/forms/d/e/1FAIpQLSetGQTkIB5olRfvNua2E6KPE9d-vPPC3sCVIoGY66jvo7VJyQ/viewform">este formulario de aquí.</a>

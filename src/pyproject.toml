@@ -1,0 +1,9 @@
+[project]
+name = "taikoguide"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.7.7",
+    "mkdocs-static-i18n>=1.3.1",
+]

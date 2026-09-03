@@ -1,0 +1,69 @@
+site_name: 太鼓の達人 Simulator Guide
+nav:
+    - Home: index.md
+    - YataiDON: yataidon.md
+    - OpenTaiko: opentaiko.md
+    - Taiko-San Daijiro 3: daijiro.md
+    - Downloading Songs: songs.md
+    - Making Songs: charting.md
+    - Links and Resources: links.md
+    - Archive:
+        - Home: archive/index.md
+        - TJAPlayer3 Forks and Simulators: archive/tjap.md
+        - Other Simulators: archive/shimyu.md
+        - Error Messages: archive/error.md
+extra_css:
+ - stylesheets/extra.css
+theme:
+  favicon: img/favicon.ico
+  logo: img/logo.png
+  name: material
+  features:
+   - navigation.tabs
+   - navigation.tabs.sticky
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+site_author: Yonokid
+site_description: sim sim sim
+extra:
+  analytics:
+    provider: google
+    property: G-2P6BSX7J64
+plugins:
+  - search:
+      lang:
+        - en
+        - es
+        - pt
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: es
+          name: Español
+          build: true
+          nav_translations:
+            Home: Inicio
+            Archive: Archivo
+            TJAPlayer3 Forks and Simulators: TJAPlayer3 "Forks" y simuladores
+            Other Simulators: Otros Simuladores
+            Error Messages: Mensajes de Error
+        - locale: pt
+          name: Português
+          build: true
+          nav_translations:
+            Home: Inicial
+            Archive: Arquivo
+            TJAPlayer3 Forks and Simulators: TJAPlayer3 "Forks" e simuladoras
+            Other Simulators: Outros simuladores
+            Error Messages: Mensagens de Erro

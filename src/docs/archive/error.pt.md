@@ -1,0 +1,1 @@
+Ainda não há relatórios de erros enviados! Envie erros <a href="https://docs.google.com/forms/d/e/1FAIpQLSetGQTkIB5olRfvNua2E6KPE9d-vPPC3sCVIoGY66jvo7VJyQ/viewform">neste formulário aqui.</a>

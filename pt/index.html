@@ -12,8 +12,22 @@
         <meta name="author" content="Yonokid">
       
       
+      
+      
+        <link rel="next" href="yataidon/">
+      
+      
+        
+          <link rel="alternate" href="/" hreflang="en">
+        
+          <link rel="alternate" href="/es/" hreflang="es">
+        
+          <link rel="alternate" href="/pt/" hreflang="pt">
+        
+      
+      
       <link rel="icon" href="../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.7">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -21,28 +35,43 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.cd566b2a.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
         
-      
-    
-    
-    
-      
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
       <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-2P6BSX7J64"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-2P6BSX7J64",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-2P6BSX7J64",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
 
     
     
@@ -56,11 +85,8 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
-    
-    
-      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -68,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#bem-vindo-ao-guia-do-simulador-taiko-no-tatsujin" class="md-skip">
+        <a href="#welcome-to-the-taiko-no-tatsujin-simulator-guide" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -82,15 +108,16 @@
 
   
 
-<header class="md-header md-header--lifted" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
-    <a href=".." title="太鼓の達人 Simulator Guide" class="md-header__button md-logo" aria-label="太鼓の達人 Simulator Guide" data-md-component="logo">
+    <a href="./" title="太鼓の達人 Simulator Guide" class="md-header__button md-logo" aria-label="太鼓の達人 Simulator Guide" data-md-component="logo">
       
   <img src="../img/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -109,94 +136,108 @@
       </div>
     </div>
     
-      <form class="md-header__option" data-md-component="palette">
-        
-          
-          
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
-          
-            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
-            </label>
-          
-        
-          
-          
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
-          
-            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
-            </label>
-          
-        
-      </form>
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
       <div class="md-header__option">
-        <div class="md-select">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Selecione o idioma">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/es/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/pt/" hreflang="pt" class="md-select__link">
+              Português
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
           
-          <button class="md-header__button md-icon" aria-label="Selecione o idioma">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24z"/></svg>
-          </button>
-          <div class="md-select__inner">
-            <ul class="md-select__list">
-              
-                <li class="md-select__item">
-                  <a href="../" hreflang="en" class="md-select__link">
-                    English
-                  </a>
-                </li>
-                
-                <li class="md-select__item">
-                  <a href="../es/" hreflang="es" class="md-select__link">
-                    Español
-                  </a>
-                </li>
-                
-                <li class="md-select__item">
-                  <a href="./" hreflang="pt" class="md-select__link">
-                    Português
-                  </a>
-                </li>
-                
-            </ul>
-          </div>
-        </div>
-      </div>
-    
-    
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Pesquisar">
         
-        <button type="reset" class="md-search__icon md-icon" aria-label="Limpar" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Inicializando a pesquisa
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
   </div>
 </div>
+      
     
     
   </nav>
@@ -204,57 +245,162 @@
     
       
 <nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
-  <div class="md-tabs__inner md-grid">
+  <div class="md-grid">
     <ul class="md-tabs__list">
       
         
   
   
+  
     
   
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Inicial
 
-
-  <li class="md-tabs__item">
-    <a href="./" class="md-tabs__link md-tabs__link--active">
-      Inicial
-    </a>
-  </li>
+      </a>
+    </li>
+  
 
       
         
   
   
+  
+  
+    <li class="md-tabs__item">
+      <a href="yataidon/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  YataiDON
 
-
-  <li class="md-tabs__item">
-    <a href="tjap/" class="md-tabs__link">
-      TJAPlayer3 "Forks" e simuladoras
-    </a>
-  </li>
+      </a>
+    </li>
+  
 
       
         
   
   
+  
+  
+    <li class="md-tabs__item">
+      <a href="opentaiko/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  OpenTaiko
 
-
-  <li class="md-tabs__item">
-    <a href="shimyu/" class="md-tabs__link">
-      Outros simuladores
-    </a>
-  </li>
+      </a>
+    </li>
+  
 
       
         
   
   
+  
+  
+    <li class="md-tabs__item">
+      <a href="daijiro/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Taiko-San Daijiro 3
 
+      </a>
+    </li>
+  
 
-  <li class="md-tabs__item">
-    <a href="error/" class="md-tabs__link">
-      Mensagens de Erro
-    </a>
-  </li>
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="songs/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Downloading Songs
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="charting/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Making Songs
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="links/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Links and Resources
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="archive/" class="md-tabs__link">
+          
+  
+  
+  Arquivo
+
+        </a>
+      </li>
+    
+  
 
       
     </ul>
@@ -279,12 +425,13 @@
                   <div class="md-sidebar__inner">
                     
 
+
   
 
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="太鼓の達人 Simulator Guide" class="md-nav__button md-logo" aria-label="太鼓の達人 Simulator Guide" data-md-component="logo">
+    <a href="./" title="太鼓の達人 Simulator Guide" class="md-nav__button md-logo" aria-label="太鼓の達人 Simulator Guide" data-md-component="logo">
       
   <img src="../img/logo.png" alt="logo">
 
@@ -296,23 +443,35 @@
     
       
       
-      
-
   
   
     
   
   
+  
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Inicial
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicial
+  
+
+    
+  </span>
+  
+  
+
       </a>
       
     </li>
@@ -321,14 +480,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
-      <a href="tjap/" class="md-nav__link">
-        TJAPlayer3 "Forks" e simuladoras
+      <a href="yataidon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    YataiDON
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -336,14 +507,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
-      <a href="shimyu/" class="md-nav__link">
-        Outros simuladores
+      <a href="opentaiko/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OpenTaiko
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -351,15 +534,277 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
-      <a href="error/" class="md-nav__link">
-        Mensagens de Erro
+      <a href="daijiro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Taiko-San Daijiro 3
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="songs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Downloading Songs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="charting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Making Songs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="links/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Links and Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arquivo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Arquivo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="archive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="archive/tjap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TJAPlayer3 "Forks" e simuladoras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="archive/shimyu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Outros simuladores
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="archive/error/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mensagens de Erro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -390,113 +835,42 @@
               </div>
             
           
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
+          
+            <div class="md-content" data-md-component="content">
               
+              <article class="md-content__inner md-typeset">
                 
+                  
 
-<h1 id="bem-vindo-ao-guia-do-simulador-taiko-no-tatsujin"><center><strong>Bem-vindo ao Guia do Simulador Taiko no Tatsujin (太鼓の達人)</strong></center></h1>
-<h1 id="pre-requisitos">Pre-requisitos</h1>
-<p><em>Todos os simuladores têm certos requisitos e instalações necessários antes que possam ser executados corretamente.</em></p>
-<h2 id="como-alterar-a-localidade-do-seu-sistema">Como alterar a localidade do seu sistema</h2>
-<h5 id="isso-nao-mudara-o-idioma-exibido-no-seu-sistema"><span style="color:red"><strong>Isso NÃO mudará o idioma exibido no seu sistema!</strong></span></h5>
-<p><strong><em>Qual é a localidade do seu sistema?</em></strong><br>
-&nbsp;&nbsp;&nbsp;&nbsp;A localidade do sistema é como o computador exibe texto não unicode nos programas.<br>
-<strong><em>Porque eu preciso mudar?</em></strong><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Para exibir texto em japonês, que é um requisito para simuladores, sua localidade precisa ser definida como japonesa para que seu computador possa analisar músicas com nomes japoneses e carregar qualquer áudio de música.<br>This process is slightly different for Win7/WinXP.</p>
-<ol>
-<li>Vá para o seu <b>Painel de Controle</b> no Windows, usando a barra de pesquisa ou usando o atalho no menu do Windows.</li>
-<li>Em seguida, vá para a guia <b>Relógio e região</b>.</li><br>
-<img src="img/controlpanel.png" width="75%" height="75%"></img>
-<li>Selecione <b>Região</b> e clique no painel <b>"Administrativo"</b>.</li><br>
-<img src="img/localechange.png" width="50%" height="50%"></img><br><br>
-<li>Clique no botão <b>"Alterar localidade do sistema..."</b> e selecione <b>"Japonês (Japão)"</b>. <b>NÃO clique na marca de seleção abaixo!</b></li>
-<li>Reinicie o computador e pronto!</li>
-</ol>
 
-<h2 id="instale-as-fontes-taiko-no-tatsujin">Instale as fontes Taiko no Tatsujin</h2>
-<p><em>Seu computador não vem com as fontes necessárias usadas na maioria dos simuladores modernos, então elas precisam ser instaladas manualmente.</em></p>
-<ol>
-<li>
-<p>Baixe as fontes necessárias.</p>
-<ul>
-<li><strong><a href="https://drive.google.com/file/d/1Au8BzkPLCIunt-GypA4qvkUtpwGnKisp/view">Dom Casual Std + DFPKanteiryu-XB (DFB勘亭流-XB)</a> | <span style="color:green">Required for TJAPlayer3</span></strong></li>
-<li><strong><a href="https://drive.google.com/file/d/1OKbd2f4lGFwLkkp3wiENsybwc6VvLc6r/view">FOT-Ōedo Kanteiryu Std E (FOT-大江戸勘亭流 Std E)</a> | <span style="color:blue">Required for Nijiiro (ニジイロ) style simulators</span></strong></li>
-<li><strong><a href="https://drive.google.com/file/d/1Au8BzkPLCIunt-GypA4qvkUtpwGnKisp/view">DFPKanteiryu-XB (DFB勘亭流-XB)</a> | <span>Required for any other simulator</span></strong></li>
-</ul>
-</li>
-<li>
-<p>Clique duas vezes no arquivo de fonte para instalar.<br>
-<img alt="Image of font install window" src="img/installfont.png" /></p>
-</li>
-<li>
-<p>Em certos simuladores TJAPlayer3, é necessário especificar a fonte. Em config.ini, mude:<br>
-<code>FontName=ＤＦＰ勘亭流</code> para fonte normal e inglês híbrido<br>
-<code>FontName=FOT-大江戸勘亭流 Std E</code> para fonte Nijiiro<br></p>
-</li>
-</ol>
-<p>Nenhuma reinicialização é necessária após a instalação da fonte.<br></p>
-<p><em>Para a fonte taiko padrão, foi adicionada compatibilidade extra para selecionar músicas. Para habilitar essa compatibilidade, os nomes das músicas no arquivo TJA devem ser alterados.</em><br>
-<code>!? = ⁉</code><Br>
-<code>?! = ⁈</code><br>
-<code>⒑ = 10</code><Br>
-<code>⒒ = 11</code><Br>
-<code>⒓ = 12.5</code><Br>
-<code>⒕ = 14</code><Br>
-<code>Ⅼ = LO</code><br>
-<code>Ⅾ = DY</code><br>
-<code>‼ = !!</code><br>
-<code>‽ = !!!</code><br>
-<code>❢ = !!!!</code><br>
-<code>there is one for !!!!!</code><br>
-<code>℣ = vs</code><br>
-<code>♢ = poxei doon diamond</code><Br>
-<code>：= :</code><br>
-<code>🐠 = a fish in taiko font</code><br>
-<code>ﻼ = a dolphin in taiko font</code><Br></p>
-<h2 id="como-obter-musicas">Como Obter Musicas</h2>
-<p><em>Encontrar músicas pode ser complicado, especialmente para pessoas que não falam ou lêem japonês. Este guia fornece fontes confiáveis ​​para encontrar gráficos de boa qualidade (TJAs) e áudio. Certifique-se de que seu simulador está funcionando antes de baixar músicas.</em></p>
-<h3 id="tjadb-recomendado"><B>TJADB</b> (Recomendado)</h3>
-<p>O TJADB é a maneira mais atualizada e eficiente de encontrar áudios e gráficos da mais alta qualidade, principalmente para músicas oficiais. As músicas personalizadas também estão incluídas em um canal de envio de usuários separado.<br><br>
-No momento em que escrevo isso, o projeto ESE (Every Song Ever) está completo e inclui TODOS os mapas e músicas oficiais de taiko. Você pode encontrar o TJADB no Discord <a href="https://discord.gg/XHcVYKW">aqui</a>.<br><br>
-Para músicas personalizadas de alta qualidade, visite <a href="https://dev.pidgey.net">https://dev.pidgey.net</a> para obter o banco de dados TJADB personalizado completo.</p>
-<h4 id="getuploader">GetUploader</h4>
-<p>GetUploader, também conhecido como "uploader.jp" ou "ux.getuploader.com", é onde muitos criadores e usuários japoneses de TJA enviam seus trabalhos online. As fontes daqui podem ser de qualidade variável, e a grande maioria delas é personalizada.<br>.
-As músicas também podem ser encontradas usando o GetUploader acessando o Google e usando o formato "nome da música" + site:getuploader.com.</p>
-<h4 id="outras-fontes">Outras fontes</h4>
-<p>As músicas podem ser encontradas em outros lugares na web, como <a href="https://taikosanjiro-humenroom.net">taikosanjiro-humenroom</a>, que apresenta Oni (ou Omote (表)) e Ura (裏) paradas personalizadas e oficiais. Qualquer coisa além disso pode ser encontrada com o google e o termo 太鼓さん次郎 + "Nome da música".</p>
-<hr />
-<h3 id="continue-para-tjaplayer3-forks-e-simuladores"><center><strong>Continue para <a href="https://tjadataba.se/tjap">TJAPlayer3 Forks e Simuladores</a></strong></center></h3>
-<hr />
 
-              
-            </article>
-          </div>
+<h1 id="welcome-to-the-taiko-no-tatsujin-simulator-guide"><center><strong>Welcome to the Taiko no Tatsujin (太鼓の達人) Simulator Guide</strong></center></h1>
+<p>Use the tabs above to find simulators, download songs, and learn how to make your own charts.</p>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
       </main>
       
         <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Rodapé">
-      
-      
-        
-        <a href="tjap/" class="md-footer__link md-footer__link--next" aria-label="Próximo: TJAPlayer3 &#34;Forks&#34; e simuladoras" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Próximo
-              </span>
-              TJAPlayer3 "Forks" e simuladoras
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -518,10 +892,15 @@ As músicas também podem ser encontradas usando o GetUploader acessando o Googl
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}, "search": "../assets/javascripts/workers/search.22074ed6.min.js"}</script>
     
     
-      <script src="../assets/javascripts/bundle.01de222e.min.js"></script>
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
