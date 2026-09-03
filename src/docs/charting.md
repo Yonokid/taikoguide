@@ -14,6 +14,8 @@ PeepoDrumKit is the recommended tool to chart with. It features an easy to use G
 
 You can find the currently maintained download here: [github.com/IepIweidieng/PeepoDrumKit](https://github.com/IepIweidieng/PeepoDrumKit)
 
+![PeepoDrumKit chart editor](img/peepodrumkit.png)
+
 ### TJA Tools
 
 TJA Tools is a web based tool for visualizing TJA charts.

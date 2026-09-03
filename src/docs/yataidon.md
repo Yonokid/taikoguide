@@ -57,3 +57,14 @@ On the website you can change:
 - Don-chan Costume
 
 Based on your scores, you can also search for songs to directly open them in the game, or view your scores by version or by difficulty.
+
+## Screenshots
+
+![Player entry screen](img/yataidon1.png)
+![Song select screen](img/yataidon2.png)
+![Gameplay screen](img/yataidon3.png)
+![Results screen](img/yataidon4.png)
+![Main menu](img/yataidon5.png)
+![Song list](img/yataidon6.png)
+![Song select screen](img/yataidon7.png)
+![Gameplay screen](img/yataidon8.png)
