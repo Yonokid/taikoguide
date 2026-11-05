@@ -12,16 +12,22 @@ All platforms support the same features, but may have extra setup or different h
 - MacOS
 - Linux
 - Android
+- iOS ([https://testflight.apple.com/join/ZzrXBUsb](https://testflight.apple.com/join/ZzrXBUsb))
+- PS5
+- Switch 1
 
 ### Skins
 
 There are builtin skins that resemble:
 
-- KATSU-DON to Red Version
-- Yellow Version to Green Version
-- Nijiiro Version
+- KATSU-DON to Red Version (YataiDONRed)
+- Yellow Version to Green Version (PyTaikoGreen)
+- Nijiiro Version (YataiDONNijiiro)
+- Version 14 (YataiDON14)
+- Version 8 (YataiDON8)
+- Version 12 (Asia) (YataiDON12Asia)
 
-you can change your skin in `config.toml` by changing the `skin` value.
+you can change your skin in `config.toml` by changing the `skin` value or in the game settings.
 
 ### Installing Songs
 
@@ -47,7 +53,7 @@ To enable this feature, you can change it through ingame settings or in `config.
 online_play = true
 ```
 
-Once the game is launched, you will receive an access code in `config.toml` that will allow you to login into https://yataidon.tjadataba.se.
+Once the game is launched, you will receive an access code in `config.toml` that will allow you to login into [https://yataidon.tjadataba.se](https://yataidon.tjadataba.se).
 
 On the website you can change:
 
